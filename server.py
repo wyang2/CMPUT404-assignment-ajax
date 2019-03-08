@@ -102,6 +102,7 @@ def clear():
     '''Clear the world out!'''
     myWorld.clear()
     return jsonify(myWorld.world())
+    
 
 if __name__ == "__main__":
     app.run()
